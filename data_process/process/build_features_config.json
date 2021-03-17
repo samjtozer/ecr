@@ -1,0 +1,25 @@
+{
+  "train_text_file":"../data/cleaned/ECB_Train_corpus.txt",
+  "dev_text_file":"../data/cleaned/ECB_Dev_corpus.txt",
+  "test_text_file":"../data/cleaned/ECB_Test_corpus.txt",
+
+  "train_event_mentions":"../data/cleaned/ECB_Train_Event_gold_mentions.json",
+  "dev_event_mentions":"../data/cleaned/ECB_Dev_Event_gold_mentions.json",
+  "test_event_mentions":"../data/cleaned/ECB_Test_Event_gold_mentions.json",
+
+  "train_entity_mentions":"../data/cleaned/ECB_Train_Entity_gold_mentions.json",
+  "dev_entity_mentions":"../data/cleaned/ECB_Dev_Entity_gold_mentions.json",
+  "test_entity_mentions":"../data/cleaned/ECB_Test_Entity_gold_mentions.json",
+
+  "pred_event_mentions":"",
+  "pred_entity_mentions":"",
+
+  "use_dep": false,
+  "use_srl": false,
+  "use_left_right_mentions": false,
+  "use_allen_srl":false,
+  "relaxed_match_with_gold_mention": false,
+
+  "load_predicted_mentions": false,
+  "load_elmo": false
+}
